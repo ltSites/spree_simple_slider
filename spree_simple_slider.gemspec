@@ -7,14 +7,14 @@ require 'spree_simple_slider/version'
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_simple_slider'
-  s.version     = SpreeSimpleSlider.version
-  s.summary     = 'Add extension summary here'
-  s.description = 'Add (optional) extension description here'
+  s.version     = '1.0.1'
+  s.summary     = 'Simple Spree extension with Slick slider'
+  s.description = 'Spree extension with Slick slider'
   s.required_ruby_version = '>= 2.2.7'
 
-  s.author    = 'You'
-  s.email     = 'you@example.com'
-  s.homepage  = 'https://github.com/your-github-handle/spree_simple_slider'
+  s.author    = 'ItSites'
+  s.email     = 'hello@itsites.ru'
+  s.homepage  = 'https://github.com/ltSites/spree_simple_slider'
   s.license = 'BSD-3-Clause'
 
   # s.files       = `git ls-files`.split("\n").reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }
