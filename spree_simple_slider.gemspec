@@ -7,7 +7,7 @@ require 'spree_simple_slider/version'
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_simple_slider'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.summary     = 'Simple Spree extension with Slick slider'
   s.description = 'Spree extension with Slick slider'
   s.required_ruby_version = '>= 2.2.7'

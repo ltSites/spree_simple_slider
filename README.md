@@ -6,7 +6,7 @@ Simple Spree extension with Slick slider
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_simple_slider'
+  gem 'spree_simple_slider', github: 'ltSites/spree_simple_slider'
   ```
 
 2. Install the gem using Bundler:

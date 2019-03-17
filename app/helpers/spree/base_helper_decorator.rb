@@ -1,23 +1,25 @@
-module Spree::BaseHelper
+module Spree
+  BaseHelper.class_eval do
 
-  def itsites_simple_slider
-    slides = Spree::ItsitesSimpleSlider.all
-    items=""
+    def itsites_simple_slider
+      slides = Spree::ItsitesSimpleSlider.all
+      items=""
 
-    slides.each do |i|
-      items+="<div class='im'>#{image_tag i.img.url(:slide)}</div>"
-    end
+      slides.each do |i|
+        items+="<div class='im'>#{image_tag i.img.url(:slide)}</div>"
+      end
 
-    content="
-            <div class='container' data-hook='itsites_simple_slider'>
-              <div class='row'>
-                <div class='slii'>
-                  #{items}
+      content="
+              <div class='container' data-hook='itsites_simple_slider'>
+                <div class='row'>
+                  <div class='slii'>
+                    #{items}
+                  </div>
                 </div>
               </div>
-            </div>
-          "
-      return raw content
-  end
+            "
+        return raw content
+    end
 
+  end
 end
