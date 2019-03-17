@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="col-md-6">
+    <%= f.field_container :name do %>
+      <%= f.label :name, t(:name) %><br>
+      <%= f.text_field :name, class: 'fullwidth form-control', placeholder: t('itsites_simple_slider.placeholder_name') %>
+    <% end %>
+  </div>
+
+  <div class="col-md-6">
+    <%= f.field_container :url do %>
+      <%= f.label :link_url, t(:url) %><br>
+      <%= f.text_field :url, class: 'fullwidth form-control', placeholder: t('itsites_simple_slider.placeholder_url') %>
+    <% end %>
+  </div>
+
+  <div class="col-md-12">
+    <%= f.field_container :text do %>
+      <%= f.label :text, t(:text) %><br>
+      <%= f.text_area :text, {cols: 60, rows: 4, class: 'fullwidth form-control'} %>
+    <% end %>
+  </div>
+
+  <div class="col-md-6">
+    <%= f.field_container :img do %>
+      <%= f.label :img, t(:img) %> <i>(<%= t('itsites_simple_slider.image_tip') %>)</i><br>
+      <%= f.file_field :img %>
+    <% end %>
+  </div>
+
+  <div class="col-md-6">
+     <%= image_tag f.object.img.url(:medium), class: 'img-responsive' if f.object.img.present? %>
+  </div>
+
+</div>

@@ -1,0 +1,10 @@
+en:
+  itsites_simple_slider:
+    title_itsites: ItSites Slider
+    new_slide: New Slider
+    title: Slider
+    back_to_slides: Back to list
+    edit_slide: Edit Slider
+    placeholder_name: Name
+    placeholder_url: url to page
+    image_tip: Image
