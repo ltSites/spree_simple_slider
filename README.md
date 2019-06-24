@@ -1,6 +1,6 @@
 # Spree Simple Slider
 
-Simple Spree extension with Slick slider
+Spree extension with Slick slider integration
 
 ## Installation
 
